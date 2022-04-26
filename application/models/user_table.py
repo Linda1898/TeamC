@@ -11,5 +11,5 @@ class UserTable(db.Model):
     user_id = db.Column(db.Integer, primary_key=True)
     user_name = db.Column(db.String(10), nullable=False)
     user_age = db.Column(db.Integer)
-    liked = db.relationship('Liked', backref='liked')
+    # COMMENTING OUT FOR TEST PURPOSE ONLY liked = db.relationship('Liked', backref='liked')
     # TODO: user_name in user_table need more than 10 chars?
