@@ -38,3 +38,7 @@ def home():
 def recipes():
     return render_template("recipes.html")
 
+@app.route("/user")
+def user():
+
+    return render_template("userhome.html")
