@@ -40,5 +40,4 @@ def recipes():
 
 @app.route("/user")
 def user():
-
-    return render_template("userhome.html")
+    return render_template("welcome_new_user.html")

@@ -103,6 +103,7 @@ p {
     transform: translate(-50%, -50%);
   }
 
+
   .navbar {
     display: inline-block;
 }
@@ -122,9 +123,10 @@ p {
     padding: 10px;
     text-align: center;
     text-decoration: none;
-    font-size: 6px;
     width: 40%;
     margin-top: 20px;
+    font-size: 12px;
+    margin-bottom: 0px;
   }
 
   .greenbutton {
@@ -135,9 +137,10 @@ p {
     align-items: center;
     text-align: center;
     text-decoration: none;
-    font-size: 6px;
+    font-size: 12px;
     width: 40%;
     margin-top: 20px;
+    margin-bottom: 0px;
   }
 
   thead, th, tr, tbody, .table{
