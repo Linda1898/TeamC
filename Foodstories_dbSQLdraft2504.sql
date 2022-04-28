@@ -392,5 +392,6 @@ values(1, 1, 1),
 	  (10, 10, 10);
 
 
-
-    
+ALTER TABLE recipe 
+ADD COLUMN recipe_image TINYBLOB 
+AFTER recipe_name;
